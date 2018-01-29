@@ -1,0 +1,35 @@
+{
+  "name": "node-typescript-utils-enrico",
+  "version": "1.0.0",
+  "description": "utils for node written in typescript",
+  "main": "index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/*.spec.ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnricoPicci/node-typescript-utils-enrico.git"
+  },
+  "author": "Enrico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnricoPicci/node-typescript-utils-enrico/issues"
+  },
+  "homepage": "https://github.com/EnricoPicci/node-typescript-utils-enrico#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.47",
+    "@types/node": "^9.4.0",
+    "@types/request": "^2.0.13",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "rxjs": "^5.5.6"
+  }
+}
